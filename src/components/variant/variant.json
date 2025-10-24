@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_variant_variant",
+  "info": {
+    "displayName": "Variant",
+    "description": "Product variation (e.g., width, color, size)"
+  },
+  "attributes": {
+    "variantName": {
+      "type": "string"
+    },
+    "sku": {
+      "type": "string"
+    },
+    "additionalPrice": {
+      "type": "decimal"
+    },
+    "attributes": {
+      "type": "json"
+    },
+    "images": {
+      "type": "media",
+      "multiple": true
+    },
+    "available": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}
